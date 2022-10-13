@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href="cn_reset.css" rel="stylesheet">
+    <link href="cn_styles5.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="cn_logo.jpg" alt="CyberSeries8">
+        <nav class="horizontal" id="mainLinks">
+            <ul>
+                <li><a href="cn_index.html">Home</a></li>
+                <li><a href="cn_about.html">About Me</a></li>
+                <li><a href="cn_skills.html">Skills & Services</a></li>
+                <li><a href="cn_work.html">My Work</a></li>
+                <li><a href="cn_contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <header>
+            <h2>Contact Me</h2>
+        </header>
+
+        <p>Want to get in contact with me? Fill out the forms below and I'll get back to you as soon as I can!</p>
+        <p>Disclamer: <s>I won't actually be able to get back to you, but it's the thought that counts right?</s></p>
+
+        <form id="survey" action="http://www.example.com/CyberSeries8/survey" method="post">
+            <fieldset id="viewerInfo">
+                <legend>Your information here</legend>
+            <div class="formRow">
+                <label for="name">Name*</label>
+                <input name="viewerName" id="name" type="text" placeholder="Craig Nordin" />
+            </div>
+            <div class="formRow">
+                <label for="street">Address</label>
+                <input name="viewerStreet" id="street" type="text" placeholder="16 Hudson Crane"/>
+            </div>
+            <div class="formRow">
+                <label for="city">City</label>
+                <input name="viewerCity" id="city" type="text" value="Great Malls" />
+            </div>
+            <div class="formRow">
+                <label for="state">State</label>
+                <input name="viewerState" id="state" type="text" value="MT" />
+            </div>
+            <div class="formRow">
+                <label for="zip">Postal Code</label>
+                <input name="viewerZip" id="zip" type="text" placeholder="16505" />
+            </div>
+            <div class="formRow">
+                <label for="phone">Phone Number</label>
+                <input name="viewerPhone" id="phone" type="tel" placeholder="(888) 888-8888" />
+            </div>
+            <div class="formRow">
+                <label for="mail">E-mail*</label>
+                <input name="viewerEmail" id="mail" type="email" placeholder="CyberSeries8@gmail.com"/>
+            </div>
+    
+            <div class="formRow">
+             <label for="info">How did you find out about CyberSeries8?<br />(Select all that apply)</label>
+             <select name="infoSrc" id="info" size="4" multiple>
+                <option value="internet">Internet</option>
+                <option value="craig">Craig Nordin Himself</option>
+                <option value="midterm">Web Design Midterm</option>
+                <option value="other">Other</option>
+             </select>
+            </div>
+    
+             <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+             <label for="mailCB">Subscribe to the official CyberSeries8 Newsletter!</label>
+            </fieldset>
+    
+            <fieldset id="CyberSeries8Form">
+                <legend>CyberSeries8 Question Form</legend>
+    
+                <div class="formRow">
+                   <label for="visit">Date of last website visit</label>
+                   <input name="visitDate" id="visit" type="date" />
+                </div>
+    
+                <div class="formRow">
+                   <label for="contact">Preferred contact method</label>
+                   <select name="contactType" id="contact">
+                      <option value="contact1" selected>E-mail</option>
+                      <option value="contact2">In-Person</option>
+                      <option value="conctact3">Online Meeting</option>
+                      <option value="contact4">Text</option>
+                   </select>
+                </div>
+    
+                <div class="formRow">
+                   <label>Do you like my website?</label>
+                   <fieldset class="optGroup">
+                      <label for="fYes">Yes</label>
+                      <input name="sLike" id="fYes" value="yes" type="radio" />
+                      <label for="fNo">No</label>
+                      <input name="sLike" id="fNo" value="no" type="radio" />
+                      <label for="fMaybe">Maybe</label>
+                      <input name="sLike" id="fMaybe" value="Maybe" type="radio" />
+                   </fieldset>
+                </div>
+    
+                <div class="formRow">
+                    <label for="rating">On a scale of 1-10, how would you rank my website?</label>
+                    <select name="ratingType" id="rating">
+                       <option value="rating1">1- Absolutely Terrible :(</option>
+                       <option value="rating2">2- Very Awful</option>
+                       <option value="rating3">3- Bad</option>
+                       <option value="rating4">4- Not Good</option>
+                       <option value="rating5">5- Neutral</option>
+                       <option value="rating6">6- It's Okay :/</option>
+                       <option value="rating7">7- Good</option>
+                       <option value="rating8">8- It's Grrrrreat! :)</option>
+                       <option value="rating9">9- Amazing!</option>
+                       <option value="rating10" selected>10- Best Thing Since Sliced Bread!</option>
+                    </select>
+                 </div>
+    
+                <label for="commBox">Ask any questions you may have for me, Craig Nordin, in the white box below</label>
+                <textarea name="CyberSeries8Form" id="CS8Box"></textarea>
+                
+            </fieldset>
+          </form>
+    </article>
+
+
+
+    <footer>
+        CyberSeries8 &#9840; 2021 Starlight Road. &#9840; Great Malls, Mintona
+    </footer>
+</body>
+</html>

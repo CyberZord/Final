@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* Hidden Objects */
+
+nav.horizontal, footer, article, table.list caption, p {
+    display: none;
+}
+
+section#table {
+    size: 10in;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
